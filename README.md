@@ -20,13 +20,13 @@ This project demonstrates the mapping between entities using JPA and Spring Data
 
 The data flow in this project follows the typical MVC (Model-View-Controller) pattern, with the following components:
 
-Controller: Handles incoming requests, performs data validation, and calls the appropriate service methods.
+* Controller: Handles incoming requests, performs data validation, and calls the appropriate service methods.
 
-Service: Contains the business logic, performs necessary transformations, and interacts with the repository for data persistence.
+* Service: Contains the business logic, performs necessary transformations, and interacts with the repository for data persistence.
 
-Repository: Provides an interface for database operations and utilizes Spring Data JPA to perform CRUD operations on the entities.
+* Repository: Provides an interface for database operations and utilizes Spring Data JPA to perform CRUD operations on the entities.
 
-Database: Stores the data in a relational database.
+* Database: Stores the data in a relational database.
 
 ## Entity Overview
 
